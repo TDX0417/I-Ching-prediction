@@ -8,10 +8,10 @@ def byNum(num1,num2):
   else:
     change = (num1+num2)%6
 
-  #Main(Present)
+  #Main diagram(Present)
   Main = eightDiagrams[outer-1]+eightDiagrams[inner-1]
   
-  #Changed(Result)
+  #Changed diagram(Result)
   Changed = eightDiagrams[outer-1]+eightDiagrams[inner-1]
   
   if Changed[6-change] == 1:
